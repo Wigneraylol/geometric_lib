@@ -19,9 +19,10 @@
 - Квадрат: **P = 4a**
 - Треугольник: **P = a + b + c**
 
-# Модуль circle.py
+# Модули и функции
+## Модуль circle.py
 
-## 1. `area(r)`
+### 1. `area(r)`
 
 **Описание:**
 Возвращает площадь круга с заданным радиусом.
@@ -40,7 +41,7 @@ result = circle.area(5)
 print(result) # 78.53981633974483
 ```
 
-## 2. `perimeter(r)`
+### 2. `perimeter(r)`
 
 **Описание:**
 Возвращает периметр круга с заданным радиусом.
@@ -59,9 +60,9 @@ result = circle.perimeter(5)
 print(result) # 31.41592653589793
 ```
 
-# Модуль rectangle.py
+## Модуль rectangle.py
 
-## 1. `area(a, b)`
+### 1. `area(a, b)`
 
 **Описание:**
 Возвращает площадь прямоугольника с заданными сторонами.
@@ -81,7 +82,7 @@ result = rectangle.area(2.5, 4)
 print(result) # 10.0
 ```
 
-## 2. `perimeter(a, b)`
+### 2. `perimeter(a, b)`
 
 **Описание:**
 Возвращает периметр прямоугольника с заданными сторонами.
@@ -100,9 +101,9 @@ import rectangle
 result = rectangle.perimeter(2.5, 4)
 print(result) # 13.0
 ```
-# Модуль square.py
+## Модуль square.py
 
-## 1. `area(a)`
+### 1. `area(a)`
 
 **Описание:**
 Возвращает площадь квадрата с заданной стороной.
@@ -121,7 +122,7 @@ result = square.area(4)
 print(result) # 16
 ```
 
-## 2. `perimeter(a)`
+### 2. `perimeter(a)`
 
 **Описание:**
 Возвращает периметр квадрата с заданной стороной.
@@ -139,9 +140,9 @@ import square
 result = square.perimeter(5.25)
 print(result) # 21.0
 ```
-# Модуль triangle.py
+## Модуль triangle.py
 
-## 1. `area(a, h)`
+### 1. `area(a, h)`
 
 **Описание:**
 Возвращает площадь треугольника с заданными стороной и высотой.
@@ -161,7 +162,7 @@ result = triangle.area(5, 2)
 print(result) # 5.0
 ```
 
-## 2. `perimeter(a, b, c)`
+### 2. `perimeter(a, b, c)`
 
 **Описание:**
 Возвращает периметр треугольника с заданными сторонами.
@@ -181,12 +182,14 @@ import triangle
 result = triangle.perimeter(3, 4, 5)
 print(result) # 12
 ```
-# Commit ba695bd9b11cfd220a3b4ef221c0b629d37f2347 
+# История коммитов
+
+## Commit ba695bd9b11cfd220a3b4ef221c0b629d37f2347 
 - Author: **Wigner** <wigneraylol@gmail.com>
 - Date:   Sun Oct 12 12:46:58 2025 +0300
 - **"Added new file triangle.py and fixed mistake in rectangle.py"**
 
-# Commit f5f4e0e8088029f8d648b677c552f9989858c81b
+## Commit f5f4e0e8088029f8d648b677c552f9989858c81b
 - Author: **Wigner** <wigneraylol@gmail.com>
 - Date:   Sun Oct 12 12:44:49 2025 +0300
 - **"Added new file rectangle.py"**

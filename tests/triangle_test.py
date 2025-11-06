@@ -1,5 +1,5 @@
 import pytest
-from rectangle import area, perimeter
+from triangle import area, perimeter
 
 class TestRectangle:
     """Тесты для функций треугольника"""

@@ -9,6 +9,11 @@ def area(a, h):
             
         Пример вызова:
             triangle_area = area(5, 2) # triangle_area = 5.0'''
+    if a <= 0:
+        raise ValueError()
+    if not(type(a) == float or type(a) == int) or not (type(h) == float or type(h) == int):
+        raise TypeError()
+
     return a * h / 2 
 
 def perimeter(a, b, c): 
@@ -23,4 +28,13 @@ def perimeter(a, b, c):
             
         Пример вызова:
             triangle_perimeter = perimeter(3, 4, 5) # triangle_perimeter = 12 '''
+    if a <= 0 or b <= 0 or c <= 0:
+        raise ValueError("Incorrect values")
+
+    elif (a + b <= c) or (a + c <= b) or (a + b <= c):
+        raise ValueError("There are no such triangle")
+
+    if not(type(a) == float or type(a) == int) or not (type(b) == float or type(b) == int) or not (type(c) == float or type(c) == int):
+        raise TypeError()
+
     return a + b + c 

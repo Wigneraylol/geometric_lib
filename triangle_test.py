@@ -2,7 +2,7 @@ import unittest
 from triangle import perimeter as P
 from triangle import area as S
 
-class SquareTestCase(unittest.TestCase):
+class TriangleTestCase(unittest.TestCase):
     def test_int_per(self):
        res = P(12,5,13)
        self.assertEqual(res, 30)

@@ -9,11 +9,11 @@ def area(a):
             
         Пример вызова:
             square_area = area(4) # square_area = 16'''
-
-    if a < 0:
-        raise ValueError()
     if not(type(a) == float or type(a) == int):
         raise TypeError()
+    if a < 0:
+        raise ValueError()
+    
 
 
     return round(a * a, 10)
@@ -29,10 +29,10 @@ def perimeter(a):
             
         Пример вызова:
             square_perimeter = perimeter(5.25) # square_perimeter = 21.0'''
-
-    if a < 0:
-        raise ValueError()
     if not(type(a) == float or type(a) == int):
         raise TypeError()
+    if a < 0:
+        raise ValueError()
+    
 
     return 4 * a

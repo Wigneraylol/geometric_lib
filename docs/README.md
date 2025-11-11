@@ -178,7 +178,45 @@ import triangle
 result = triangle.perimeter(3, 4, 5)
 print(result) # 12
 ```
+# Тесты
+
+## Unit tests
+
+### circle.py
+
+- Правильный ответ при входных int/float (area и perimeter)
+- ValueError при входных < 0 (area и perimeter)
+- TypeError при входных !(int or float) (area и perimeter)
+
+### rectangle.py
+
+- Правильный ответ при входных int/float (area и perimeter)
+- ValueError при входных < 0 (area и perimeter)
+- TypeError при входных !(int or float) (area и perimeter)
+
+### square.py
+
+ Правильный ответ при входных int/float (area и perimeter)
+- ValueError при входных < 0 (area и perimeter)
+- TypeError при входных !(int or float) (area и perimeter)
+
+### triangle.py
+
+ Правильный ответ при входных int/float (area и perimeter)
+- ValueError при входных < 0 (area и perimeter)
+- ValueError при входных данных, при которых треугольник не существует (perimeter)
+- TypeError при входных !(int or float) (area и perimeter)
+
+
+
+
 # История коммитов
+
+## Commit 3 
+- Hash: **844c31868f8c90100884d22e19851f748e9beb56**
+- Author: **Wigner** <wigneraylol@gmail.com>
+- Date: Sun Nov 9 14:56:08 2025 +0300
+- **Added unit test for all modules**
 
 ## Commit 2 
 - Hash: **ba695bd9b11cfd220a3b4ef221c0b629d37f2347**
@@ -191,3 +229,5 @@ print(result) # 12
 - Author: **Wigner** <wigneraylol@gmail.com>
 - Date:   Sun Oct 12 12:44:49 2025 +0300
 - **"Added new file rectangle.py"**
+
+

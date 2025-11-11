@@ -9,10 +9,11 @@ def area(a, b):
             
         Пример вызова:
             rectangle_area = area(2.5 , 4) # rectangle_area = 10.0 '''
-    if a < 0 or b < 0 :
-        raise ValueError()
     if not(type(a) == float or type(a) == int) or not (type(b) == float or type(b) == int):
         raise TypeError()
+    if a < 0 or b < 0 :
+        raise ValueError()
+    
 
     return a * b 
 
@@ -28,9 +29,10 @@ def perimeter(a, b):
         Пример вызова:
             rectangle_perimeter = perimeter(2.5 , 4) # rectangle_perimeter = 13.0'''
 
-    if a < 0 or b < 0 :
-        raise ValueError()
     if not(type(a) == float or type(a) == int) or not (type(b) == float or type(b) == int):
         raise TypeError()
+    if a < 0 or b < 0 :
+        raise ValueError()
+    
 
     return 2 * (a + b)

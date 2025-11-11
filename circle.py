@@ -1,6 +1,5 @@
 import math
 
-
 def area(r):
     ''' Возвращает площадь круга с заданным радиусом.
         Параметры:
@@ -37,4 +36,3 @@ def perimeter(r):
         raise TypeError()
 
     return 2 * math.pi * r
-

@@ -184,30 +184,28 @@ print(result) # 12
 
 ### circle.py
 
-- Правильный ответ при входных int/float (area и perimeter)
-- ValueError при входных < 0 (area и perimeter)
-- TypeError при входных !(int or float) (area и perimeter)
+- Правильный ответ при входных `int`/`float` (area и perimeter)
+- **ValueError** при входных < 0 (area и perimeter)
+- **TypeError** при входных !(`int` or `float`) (area и perimeter)
 
 ### rectangle.py
 
-- Правильный ответ при входных int/float (area и perimeter)
-- ValueError при входных < 0 (area и perimeter)
-- TypeError при входных !(int or float) (area и perimeter)
+- Правильный ответ при входных `int`/`float` (area и perimeter)
+- **ValueError** при входных < 0 (area и perimeter)
+- **TypeError** при входных !(`int` or `float`) (area и perimeter)
 
 ### square.py
 
-- Правильный ответ при входных int/float (area и perimeter)
-- ValueError при входных < 0 (area и perimeter)
-- TypeError при входных !(int or float) (area и perimeter)
+- Правильный ответ при входных `int`/`float` (area и perimeter)
+- **ValueError** при входных < 0 (area и perimeter)
+- **TypeError** при входных !(`int` or `float`) (area и perimeter)
 
 ### triangle.py
 
-- Правильный ответ при входных int/float (area и perimeter)
-- ValueError при входных < 0 (area и perimeter)
-- ValueError при входных данных, при которых треугольник не существует (perimeter)
-- TypeError при входных !(int or float) (area и perimeter)
-
-
+- Правильный ответ при входных `int`/`float` (area и perimeter)
+- **ValueError** при входных < 0 (area и perimeter)
+- **ValueError** при входных данных, при которых треугольник не существует (perimeter)
+- **TypeError** при входных !(`int` or `float`) (area и perimeter)
 
 
 # История коммитов

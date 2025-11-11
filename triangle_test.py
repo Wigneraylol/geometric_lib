@@ -26,6 +26,10 @@ class TriangleTestCase(unittest.TestCase):
     def test_invalidtype_per(self):
         with self.assertRaises(TypeError):
             P("2",2,2)
+        with self.assertRaises(TypeError):
+            P(2,"2",2)
+        with self.assertRaises(TypeError):
+            P(2,2,"2")
 
     def test_int_area(self):
         res = S(10,2)
@@ -42,7 +46,11 @@ class TriangleTestCase(unittest.TestCase):
     def test_negative_area(self):
         with self.assertRaises(ValueError):
             S(-2,2)
+        with self.assertRaises(ValueError):
+            S(2,-2)
 
     def test_invalidtype_area(self):
         with self.assertRaises(TypeError):
             S("2",5)
+        with self.assertRaises(TypeError):
+            S(5,"2")

@@ -12,7 +12,7 @@ def area(a, h):
     if not(type(a) == float or type(a) == int) or not (type(h) == float or type(h) == int):
         raise TypeError()
         
-    if a < 0:
+    if a < 0 or h < 0:
         raise ValueError()
     
     return a * h / 2 
@@ -37,6 +37,6 @@ def perimeter(a, b, c):
         raise ValueError()
 
     elif (a + b <= c) or (a + c <= b) or (c + b <= a):
-        raise ValueError() # Такого треугольника не существует
+        raise ValueError() 
 
     return a + b + c 

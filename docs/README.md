@@ -196,13 +196,13 @@ print(result) # 12
 
 ### square.py
 
- Правильный ответ при входных int/float (area и perimeter)
+- Правильный ответ при входных int/float (area и perimeter)
 - ValueError при входных < 0 (area и perimeter)
 - TypeError при входных !(int or float) (area и perimeter)
 
 ### triangle.py
 
- Правильный ответ при входных int/float (area и perimeter)
+- Правильный ответ при входных int/float (area и perimeter)
 - ValueError при входных < 0 (area и perimeter)
 - ValueError при входных данных, при которых треугольник не существует (perimeter)
 - TypeError при входных !(int or float) (area и perimeter)

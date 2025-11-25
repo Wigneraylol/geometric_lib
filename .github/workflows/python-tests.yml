@@ -1,11 +1,11 @@
 name: Unit tests
 
-on: [push, pull_request]
+on: push
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, windows-latest]
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - run: python -m unittest *_test.py -v
